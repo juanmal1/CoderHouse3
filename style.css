@@ -172,6 +172,7 @@ text-decoration: none;
 /*---index---*/
 #preguntasFrecuentes{
     background-color: rgba(0, 0, 0, 0.792) ;
+    width: 100%;
 }
 main section div h1{
     text-align: center;
