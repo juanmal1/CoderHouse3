@@ -94,12 +94,14 @@ body{
 /*---formulario Contacto---*/
 .Formulario {
     width: 500px;
+    display: grid;
     background: #050505;
     padding: 40px 50px 40px 50px ; 
     margin: auto;
     max-width: 900px;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-left: 700px;
+    margin-bottom: 300px;
     border-radius: 4px;
     font-family: 'calibri';
     color:rgb(207, 26, 108);
