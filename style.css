@@ -207,6 +207,7 @@ main div iframe{
     display: grid;
     justify-content: center;
     border-radius: 4px;
+    margin-bottom: 300px;
 }
 
 /*----Catalogo----*/
