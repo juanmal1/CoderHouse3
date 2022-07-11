@@ -36,10 +36,10 @@ body{
     display: inline-block;
 }
 .menu-der a:hover{
-    color: rgb(207, 26, 108);
+    color:$bgcolor;
 }
 .menu-der a:link{
-    color: rgb(207, 26, 108);
+    color: $bgcolor;
 }
 .logo{
     display: flex;
@@ -50,7 +50,7 @@ body{
     padding: 5px;
 }
 .logo:hover{
-    background-color: rgb(207, 26, 108);
+    background-color: $bgcolor;
 }
 
 /*----NAV----*/
@@ -75,7 +75,7 @@ body{
                 text-decoration: none;
             }
             &:hover{
-                background-color: rgb(207, 26, 108);
+                background-color: $bgcolor;
             }
     }
 }
