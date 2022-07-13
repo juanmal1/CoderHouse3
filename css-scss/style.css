@@ -140,7 +140,7 @@ body {
 }
 .Formulario:hover {
   color: rgba(207, 26, 108, 0.5);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .controls {

@@ -136,11 +136,11 @@ body{
     }
     a{
         color: white;
-    text-decoration: none;
+        text-decoration: none;
     }
     &:hover{
         color: $bgcolor;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
