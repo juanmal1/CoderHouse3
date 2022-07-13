@@ -20,13 +20,6 @@ body {
   padding: 30px;
 }
 
-.barra-movil {
-  width: 100%;
-  background-color: #000;
-  height: 30px;
-  color: #fff;
-}
-
 .menu-der {
   height: 30px;
   text-decoration: none;
@@ -104,6 +97,56 @@ body {
   background-color: black;
 }
 
+.barra-movil {
+  width: 100%;
+  background-color: #000;
+  height: 30px;
+  color: #fff;
+}
+.barra-movil span {
+  max-width: 100%;
+  height: 30px;
+  -webkit-animation: banner 20s infinite;
+          animation: banner 20s infinite;
+}
+
+@-webkit-keyframes banner {
+  10% {
+    padding: 10%;
+    opacity: 1;
+  }
+  30% {
+    padding: 20%;
+    opacity: 0.1;
+  }
+  60% {
+    padding: 30%;
+    opacity: 1;
+  }
+  100% {
+    padding: 35%;
+    opacity: 1;
+  }
+}
+
+@keyframes banner {
+  10% {
+    padding: 10%;
+    opacity: 1;
+  }
+  30% {
+    padding: 20%;
+    opacity: 0.1;
+  }
+  60% {
+    padding: 30%;
+    opacity: 1;
+  }
+  100% {
+    padding: 35%;
+    opacity: 1;
+  }
+}
 /*---formulario Contacto---*/
 .Formulario {
   width: 500px;
