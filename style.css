@@ -37,11 +37,11 @@ body {
 }
 
 .menu-der a:hover {
-  color: rgb(207, 26, 108);
+  color: rgba(207, 26, 108, 0.5);
 }
 
 .menu-der a:link {
-  color: rgb(207, 26, 108);
+  color: rgba(207, 26, 108, 0.5);
 }
 
 .logo {
@@ -54,7 +54,7 @@ body {
 }
 
 .logo:hover {
-  background-color: rgb(207, 26, 108);
+  background-color: rgba(207, 26, 108, 0.5);
 }
 
 /*----NAV----*/
@@ -79,7 +79,7 @@ body {
   text-decoration: none;
 }
 .menu-horizontal li:hover {
-  background-color: rgb(207, 26, 108);
+  background-color: rgba(207, 26, 108, 0.5);
 }
 
 .menu-vertical {
@@ -117,7 +117,7 @@ body {
   margin-bottom: 300px;
   border-radius: 4px;
   font-family: "calibri";
-  color: rgb(207, 26, 108);
+  color: rgba(207, 26, 108, 0.5);
   box-shadow: 7px 13px 37px #000;
 }
 
@@ -135,7 +135,7 @@ body {
   border: 1px solid #2b2f37;
   font-family: "calibri";
   font-size: 18px;
-  color: rgb(207, 26, 108);
+  color: rgba(207, 26, 108, 0.5);
 }
 
 .Formulario p {
@@ -151,13 +151,13 @@ body {
 }
 
 .Formulario a:hover {
-  color: rgb(207, 26, 108);
+  color: rgba(207, 26, 108, 0.5);
   text-decoration: underline;
 }
 
 .Formulario .reset {
   width: 100%;
-  background: rgb(207, 26, 108);
+  background: rgba(207, 26, 108, 0.5);
   border: none;
   padding: 12px;
   color: white;
@@ -167,7 +167,7 @@ body {
 
 .Formulario .enviar {
   width: 100%;
-  background: rgb(207, 26, 108);
+  background: rgba(207, 26, 108, 0.5);
   border: none;
   padding: 12px;
   color: white;
@@ -201,7 +201,7 @@ main section div h1 {
 
 main h2 {
   text-align: center;
-  color: rgb(207, 26, 108);
+  color: rgba(207, 26, 108, 0.5);
 }
 
 main .ofertas {
@@ -211,7 +211,7 @@ main .ofertas {
 
 main p {
   text-align: center;
-  color: rgb(207, 26, 108);
+  color: rgba(207, 26, 108, 0.5);
   -webkit-text-decoration: dashed;
           text-decoration: dashed;
   font-size: 20px;
@@ -289,7 +289,7 @@ div .caja img:hover {
 }
 
 .pie-pagina .box1 .box h2 {
-  color: rgba(209, 19, 104, 0.8);
+  color: rgba(207, 26, 108, 0.5);
   margin-bottom: 25px;
   font-size: 20px;
 }
@@ -313,8 +313,8 @@ div .caja img:hover {
 }
 
 .pie-pagina .box1 .red-social a:hover {
-  color: rgb(227, 216, 221);
-  background-color: rgb(207, 26, 108);
+  color: rgba(207, 26, 108, 0.5);
+  background-color: rgba(207, 26, 108, 0.5);
 }
 
 .pie-pagina .box2 {
@@ -329,7 +329,7 @@ div .caja img:hover {
 }
 
 .pie-pagina .box2 b {
-  color: rgb(207, 26, 108);
+  color: rgba(207, 26, 108, 0.5);
 }
 
 #main {
