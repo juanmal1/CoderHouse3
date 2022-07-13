@@ -124,10 +124,23 @@ body {
   color: rgba(207, 26, 108, 0.5);
   box-shadow: 7px 13px 37px #000;
 }
-
 .Formulario h4 {
   font-size: 22px;
   margin-bottom: 20px;
+}
+.Formulario p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.Formulario a {
+  color: white;
+  text-decoration: none;
+}
+.Formulario:hover {
+  color: rgba(207, 26, 108, 0.5);
+  text-decoration: underline;
 }
 
 .controls {
@@ -140,23 +153,6 @@ body {
   font-family: "calibri";
   font-size: 18px;
   color: rgba(207, 26, 108, 0.5);
-}
-
-.Formulario p {
-  height: 40px;
-  text-align: center;
-  font-size: 18px;
-  line-height: 40px;
-}
-
-.Formulario a {
-  color: white;
-  text-decoration: none;
-}
-
-.Formulario a:hover {
-  color: rgba(207, 26, 108, 0.5);
-  text-decoration: underline;
 }
 
 .Formulario .reset {

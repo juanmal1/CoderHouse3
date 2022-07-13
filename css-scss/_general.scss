@@ -124,11 +124,24 @@ body{
     font-family: 'calibri';
     color:$bgcolor;
     box-shadow: 7px 13px 37px #000;
-}
-
-.Formulario h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
+    h4{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    p{
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    a{
+        color: white;
+    text-decoration: none;
+    }
+    &:hover{
+        color: $bgcolor;
+        text-decoration: underline;
+    }
 }
 
 .controls {
@@ -142,24 +155,6 @@ body{
     font-size: 18px;
     color:$bgcolor;
 }
-
-.Formulario p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-}
-
-.Formulario a {
-    color: white;
-    text-decoration: none;
-}
-
-.Formulario a:hover {
-    color: $bgcolor;
-    text-decoration: underline;
-}
-
 .Formulario .reset {
     width: 100%;
     background: $bgcolor;
