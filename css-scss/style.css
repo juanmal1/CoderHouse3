@@ -282,6 +282,16 @@ div .caja img:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 30px;
+}
+
+.descuento {
+  display: grid;
+  justify-content: center;
+  background-color: rgba(55, 53, 53, 0.5);
+  padding: 30px;
+  margin-top: 30px;
+  color: #fff;
 }
 
 /*---Pie de Pagina---*/
