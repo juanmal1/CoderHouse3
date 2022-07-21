@@ -1,0 +1,15 @@
+/*maps*/
+
+$mapRedes:(facebook:blue, instagram:red, twitter:lightblue);
+
+$estilos:(
+    color:rgba(255, 255, 255, 0.985),
+    margen: 30px,
+);
+
+@each $red, $color in $mapRedes {
+    .#{$red}{
+        color:$color;
+    }
+}
+

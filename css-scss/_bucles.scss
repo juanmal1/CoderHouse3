@@ -1,0 +1,9 @@
+$colores: 'red', 'green','black';
+
+
+@each $color in $colores{
+    .#{$color} {
+        color:#{$color};
+    }
+}
+
