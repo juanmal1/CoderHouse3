@@ -163,13 +163,12 @@ main p{
     font-size: 20px;
 }
 /*--cambios y devoluciones--*/
-main div iframe{
+#iframe{
     display: grid;
     justify-content: center;
-    border-radius: 4px;
-    margin-bottom: 300px;
+    margin: 30px;
+    padding: 100px;
 }
-
 /*----Catalogo----*/
 
 .catalogo{
@@ -200,6 +199,7 @@ margin: map-get($estilos , margen );
     font-weight: bold;
 }
 #banner{
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
