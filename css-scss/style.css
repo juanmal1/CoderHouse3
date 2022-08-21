@@ -251,6 +251,10 @@ section {
   .menu-der {
     display: none;
   }
+  div .caja img{
+    width: 300px;
+    height: 400px;
+}
 }
 @media (min-width: 768px) {
   .nav {
