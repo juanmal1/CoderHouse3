@@ -202,13 +202,6 @@ div .caja img:hover {
   font-weight: bold;
 }
 
-#banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 30px;
-}
-
 .descuento {
   display: grid;
   justify-content: center;
@@ -294,9 +287,6 @@ section {
   }
   .nav {
     margin: 0 auto;
-  }
-  #banner {
-    display: none;
   }
 }
 @media screen and (max-width: 2000px) {
