@@ -192,6 +192,8 @@ div .caja img:hover {
 
 .caja {
   margin: 30px;
+  display: grid;
+  justify-content: center;
 }
 
 .caja p {
